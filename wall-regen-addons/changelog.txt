@@ -1,0 +1,13 @@
+Wall Health Regen Addons Changelog
+
+Version 1.0.0
+- Add compatibility for Wall Gates
+
+Version 1.0.1
+- Add compatibility for Tungten Mod's wall
+
+Version 1.0.2
+- Fixed a compatilibity bug with tungsten mod
+
+Version 1.0.3
+- Fixed Wall Gates animations due to the 2.0.1 Wall Gates mod version
