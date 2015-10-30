@@ -12,7 +12,7 @@ api_version = 10
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"
 
-all_clients_require_mod = false
+all_clients_require_mod = true
 client_only_mod = false
 dst_compatible = true
 server_filter_tags = {"Marble Walls"}
