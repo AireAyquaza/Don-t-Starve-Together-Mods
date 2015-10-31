@@ -1,0 +1,9 @@
+**************************************************
+					Marble Wall
+				  by Aire Ayquaza
+**************************************************
+
+Version 1.0.0
+- Add marble wall to the game
+- Add compatibility with Wall Health Regen Mod
+- Add settings for cancels MarbleArmor weight

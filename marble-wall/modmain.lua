@@ -22,6 +22,12 @@ STRINGS.RECIPE_DESC.WALL_POMARBLE_ITEM = "A strong and polished Marble Wall."
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.WALL_POMARBLE = "Nice polished marble wall!"
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.WALL_POMARBLE_ITEM = "Nice polished marble wall!"
 
+local no_marblesuit_weight = GetModConfigData("cancel_marblesuit_weight");
+
+if no_marblesuit_weight then
+	TUNING.ARMORMARBLE_SLOW = 0
+end
+
 AddRecipe("wall_pomarble_item", {Ingredient("marble", 6)}, RECIPETABS.TOWN, TECH.SCIENCE_TWO, nil, nil, nil, 6, nil, "images/inventoryimages/wall_pomarble_item.xml", "wall_pomarble_item.tex")
 
 -- workshop-509723993 = Wall Health Regen
